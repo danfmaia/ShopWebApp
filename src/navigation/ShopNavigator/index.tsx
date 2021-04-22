@@ -15,6 +15,11 @@ const ShopNavigator: FunctionComponent = () => {
       <nav>
         <ul>
           <li>
+            <Link to={ROUTES.auth}>Sair</Link>
+          </li>
+        </ul>
+        <ul>
+          <li>
             <Link to={ROUTES.products}>Produtos Disponíveis</Link>
           </li>
           {/* <li>
