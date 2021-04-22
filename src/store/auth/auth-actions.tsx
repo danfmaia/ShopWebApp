@@ -40,9 +40,9 @@ export default class AuthActions {
       if (!response.ok) {
         const errorResData = await response.json();
         const errorId = errorResData.error.message;
-        let message = 'Something went wrong!';
+        let message = 'Algo deu errado!';
         if (errorId === 'EMAIL_EXISTS') {
-          message = 'This email is already signed up!';
+          message = 'Este email já está cadastrado!';
         }
         console.log(errorResData);
         throw new Error(message);

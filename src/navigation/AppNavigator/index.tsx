@@ -16,9 +16,6 @@ const AppNavigator: FunctionComponent<Props> = (props) => {
   const isAuth = useSelector((state: IAppState) => !!state.auth.token);
   const didTryAutoLogin = useSelector((state: IAppState) => state.auth.didTryAutoLogin);
 
-  console.log('isAuth: ' + isAuth);
-  console.log('didTryAutoLogin: ' + didTryAutoLogin);
-
   useEffect(() => {
     if (isAuth) {
       history.replace(ROUTES['products']);

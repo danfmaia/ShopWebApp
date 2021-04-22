@@ -6,7 +6,7 @@ const PRODUCTS = [
     'u1',
     'Camisa Vermelha',
     'https://cdn.pixabay.com/photo/2016/10/02/22/17/red-t-shirt-1710578_1280.jpg',
-    'A red t-shirt, perfect for days with non-red weather.',
+    'Uma camisa vermelha, perfeita para dias sem tempo vermelho.',
     29.99
   ),
   new Product(
@@ -14,7 +14,7 @@ const PRODUCTS = [
     'u1',
     'Tapete Azul',
     'https://images.pexels.com/photos/6292/blue-pattern-texture-macro.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
-    'Fits your red shirt perfectly. To stand on. Not to wear it.',
+    'Combina perfeitamente com sua camisa vermelha. É pra pisar em cima, não vestir.',
     99.99
   ),
   new Product(
@@ -22,7 +22,7 @@ const PRODUCTS = [
     'u2',
     'Xícara de Café',
     'https://images.pexels.com/photos/160834/coffee-cup-and-saucer-black-coffee-loose-coffee-beans-160834.jpeg?cs=srgb&dl=bean-beans-black-coffee-160834.jpg&fm=jpg',
-    'Can also be used for tea!',
+    'Também pode ser usada para chá!',
     8.99
   ),
   new Product(
@@ -30,7 +30,7 @@ const PRODUCTS = [
     'u3',
     'O Livro - Edição Limitada',
     'https://images.pexels.com/photos/46274/pexels-photo-46274.jpeg?cs=srgb&dl=blur-blurred-book-pages-46274.jpg&fm=jpg',
-    "What the content is? Why would that matter? It's a limited edition!",
+    "Qual o conteúdo? Não importa! É uma edição limitada!",
     15.99
   ),
   new Product(
@@ -38,7 +38,7 @@ const PRODUCTS = [
     'u3',
     'Notebook',
     'https://get.pxhere.com/photo/laptop-computer-macbook-mac-screen-water-board-keyboard-technology-air-mouse-photo-airport-aircraft-tablet-aviation-office-black-monitor-keys-graphic-hardware-image-pc-exhibition-multimedia-calculator-vector-water-cooling-floppy-disk-phased-out-desktop-computer-netbook-personal-computer-computer-monitor-electronic-device-computer-hardware-display-device-448748.jpg',
-    'Awesome hardware, crappy keyboard and a hefty price. Buy now before a new one is released!',
+    'Hardware incrível, teclado ruim e preço alto. Compre logo antes que seja lançado um novo!',
     2299.99
   ),
   new Product(
@@ -46,7 +46,7 @@ const PRODUCTS = [
     'u1',
     'Caneta & Papel',
     'https://cdn.pixabay.com/photo/2015/10/03/02/14/pen-969298_1280.jpg',
-    "Can be used for role-playing (not the kind of role-playing you're thinking about...).",
+    "Pode ser usado para role playing (não o tipo de role playing que você pensa...).",
     5.49
   )
 ];

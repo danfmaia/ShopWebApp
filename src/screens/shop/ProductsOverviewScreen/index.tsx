@@ -16,9 +16,6 @@ const ProductsOverviewScreen: FunctionComponent = () => {
 
   const availableProducts = useSelector((state: IAppState) => state.products.availableProducts);
 
-  console.log('availableProducts:');
-  console.log(availableProducts);
-
   const loadProducts = useCallback(async () => {
     setError(null);
     // setIsLoading(true);
