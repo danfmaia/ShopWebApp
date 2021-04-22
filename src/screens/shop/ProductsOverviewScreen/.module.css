@@ -1,0 +1,7 @@
+/* @import '../../../global/constants.css';
+
+.errorContainer {
+  height: calc(100vh - var(--header-height));
+  flex-direction: column;
+  justify-content: center;
+} */

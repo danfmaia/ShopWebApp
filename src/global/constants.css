@@ -1,0 +1,17 @@
+:root {
+  --color-bg: #fcf3f6;
+
+  --color-01: #c2185b;
+  --color-01a: #e31c6c;
+  --color-01b: #f7bbd3;
+  --color-01c: #ffe2ed;
+
+  --color-02: #e6ac00;
+  --color-02a: #ffc61a;
+  --color-02-disabled: #a9924d;
+
+  --color-black: #2c292b;
+  --color-03: #888;
+
+  --header-height: 4rem;
+}
